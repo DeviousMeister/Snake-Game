@@ -73,7 +73,7 @@ public class theSnake {
         if(distance<=0.5){
             double xPlace = Math.random()*20;
             double yPlace = Math.random()*20;
-            while(xPlace<1 && xPlace>19 && yPlace<1 && yPlace>19){
+            while(xPlace<1 || xPlace>19 || yPlace<1 || yPlace>19){
                 xPlace = Math.random()*20;
                 yPlace = Math.random()*20;
             }

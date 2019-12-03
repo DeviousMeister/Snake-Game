@@ -19,6 +19,6 @@ public class Apple {
 
     public void drawApple(){
         StdDraw.setPenColor(Color.RED);
-        StdDraw.filledCircle(location.getX(), location.getY(), 0.25);
+        StdDraw.filledSquare(location.getX(), location.getY(), 0.5);
     }
 }
